@@ -22,6 +22,26 @@ This module allows contacts held within SuiteCRM to:
 * *Create Cases by emailing a defined support address*
 * *Update Cases by replying to Case emails*
 
+This module is, regretfully, currently unable, without your own custom coding using logic hooks to:
+
+* *Automate much of the functionality (except for creating a case from an Email - the portal changes the way that you interact with end-users who create cases but it cannot, for example:
+
+* *Pull through the first name or a surname or the subject from an Email sent in to a group inbox, configured to generate an automatic reply using a new case template in a case being automatically set up. Currently this means that the end user will receive an Email containing a variable name as opposed to the variable contents.  
+
+* *Create a contact from a case automatically (even with Workflow options, the end user details are not pulled through to the case in the first place. 
+
+* *Automatically send a portal login to the user. 
+
+* *Send Emails to third parties where the Administrator wishes to involve a third party outside of your organisation or project. 
+
+* *The module does not have any scheduling functionality built in - for example, for chase Emails to be sent. 
+
+* *The module does not have any styling options to fit in with your Joomla website design, out of the box. 
+
+**The module is only available for Joomla websites but you are free to adapt the code to suit your own needs for alternative Content Mangement Systems that are otherwise not supported. 
+
+It is therefore vitally important to understand from the outset what the module is and what it isn't before you continue. We hope to further develop the portal at a later date but we can't say when due to the limited resources and significant backlog of and within the developent team. We are however looking for volunteers to help with this project to develop the code but you may alternatively wish to consider the paid third-party portal options available in the store if you are unable to develop the portal module to suit your own needs. 
+
 The module allows SuiteCRM users to: Add updates to Cases View a
 threaded log of all updates Retrieve email notifications when a contact
 adds an update to a Case Create Joomla users from a Contact The AOP
